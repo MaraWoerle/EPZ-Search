@@ -1,22 +1,22 @@
 {
     "manifest_version": 2,
-    "name": "EPZ-Search",
-    "version": "0.1",
+    "name": "Dread-Search",
+    "version": "0.2",
 
-    "description": "Adds the EPZ-Search Engine",
+    "description": "Adds the Dread-Search Engine",
 
     "icons": {
-        "48": "icons/epz.svg",
-        "96": "icons/epz.svg"
+        "48": "icons/favicon.svg",
+        "96": "icons/favicon.svg"
     },
 
     "chrome_settings_overrides": {
 		"search_provider": {
-			"name": "EPZ-Search",
-			"search_url": "https://search.epische-zentrale.de/search?q={searchTerms}",
-			"suggest_url": "https://search.epische-zentrale.de/autocompleter?q={searchTerms}",
-			"favicon_url": "icons/epz.svg",
-			"keyword": "@epz @epz-search",
+			"name": "Dread-Search",
+			"search_url": "https://search.dread-net.com/search?q={searchTerms}",
+			"suggest_url": "https://search.dread-net.com/autocompleter?q={searchTerms}",
+			"favicon_url": "icons/favicon.svg",
+			"keyword": "@dread @dread-search",
 			"is_default": true
 		}
 	}
